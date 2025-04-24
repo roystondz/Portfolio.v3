@@ -104,7 +104,7 @@ export default function MobileMenu({ onClose, activeSection, theme, toggleTheme 
       >
         <p className={`${theme === "dark" ? "text-cyan-500" : "text-cyan-600"} font-mono`}>
           <span className={theme === "dark" ? "text-white" : "text-gray-900"}>&lt;</span>
-          John.Dev
+          Royston.Dev
           <span className={theme === "dark" ? "text-white" : "text-gray-900"}>/&gt;</span>
         </p>
       </motion.div>
