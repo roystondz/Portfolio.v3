@@ -121,17 +121,27 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Personal Portfolio",
-      description: "Created this responsive portfolio website with 3D elements and animations.",
-      tags: ["Next.js", "Three.js", "Framer Motion"],
-      link: "#",
-    },
-    {
       title: "MCQ Generator",
       description: "Developed a dynamic MCQ generator using the Gemini API that generates questions and scores based on user-provided titles and descriptions. Includes manual difficulty level control and a responsive UI.",
       tags: ["Next.js", "TypeScript", "Gemini API"],
       link: "https://testme-gemini-f4tv.vercel.app/",
+    },
+    
+      {
+        title: "Weather App",
+        description: "Created a cross-platform mobile weather application using Flutter. The app provides real-time weather updates including temperature, humidity, and weather conditions based on the user's location. Designed with a modern and user-friendly interface.",
+        tags: ["Flutter", "Dart", "Weather API"],
+        link: "#" // update with your actual link if published
+      }
+      
+    ,
+    {
+      title: "Personal Portfolio",
+      description: "Created this responsive portfolio website with 3D elements and animations.",
+      tags: ["Next.js", "Three.js", "Framer Motion"],
+      link: "#",
     }
+    
     
   ]
 
@@ -649,7 +659,7 @@ export default function Portfolio() {
 }
 
 // Simple Typewriter Effect Component
-function TypewriterEffect({ phrases }) {
+function TypewriterEffect({ phrases }: { phrases: string[] }) {
   const [index, setIndex] = useState(0)
   const [text, setText] = useState("")
   const [isDeleting, setIsDeleting] = useState(false)
