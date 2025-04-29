@@ -121,6 +121,13 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "Blogify - Full-Stack Blog Platform",
+      description: "Built a fully functional blog platform where users can create, edit, and delete posts with rich-text formatting. Implemented authentication, user-specific dashboards, and SEO optimization. Features include responsive design, dynamic routing, and server-side rendering for enhanced performance.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
+      link: "https://blog-v2-nu-ruby.vercel.app/",
+    }
+,    
+    {
       title: "MCQ Generator",
       description: "Developed a dynamic MCQ generator using the Gemini API that generates questions and scores based on user-provided titles and descriptions. Includes manual difficulty level control and a responsive UI.",
       tags: ["Next.js", "TypeScript", "Gemini API"],
