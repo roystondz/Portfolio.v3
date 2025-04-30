@@ -35,7 +35,7 @@ export default function Portfolio() {
     setMounted(true)
 
     const handleScroll = () => {
-      const sections = ["hero", "about", "skills", "programmer", "terminal", "projects", "contact"]
+      const sections = ["hero", "about", "skills", "programmer", "projects", "contact"]
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section)
         if (!element) return false
@@ -455,7 +455,7 @@ export default function Portfolio() {
     {/* <MeetTheProgrammer theme={theme} /> */}
 
       {/* Terminal Section */}
-      <TerminalSection theme={theme} />
+      {/* <TerminalSection theme={theme} /> */}
 
       {/* Projects Section */}
       <section
